@@ -1,0 +1,1 @@
+Tasm.exe -b -08 lab3_2.asm

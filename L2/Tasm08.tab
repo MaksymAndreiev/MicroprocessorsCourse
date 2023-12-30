@@ -1,0 +1,75 @@
+"TASM MDP08 Assembler.    "
+/****************************************************************************
+/* $Id: Tasm08.tab 01.11.2020 $
+/****************************************************************************
+/* This is the instruction set definition table for the 8085 version of TASM.
+/*      Ddeveloped by a student of the group KI31 Andreiev Maksym
+/* 
+/*INSTR ARGS OPCODE BYTES MOD CLASS */
+/*-----------------*/
+
+WRITE A,A   00 1 NOP 1 /*A=A
+WRITE A,B   04 1 NOP 1 /*A=B
+WRITE A,C   08 1 NOP 1 /*A=C
+WRITE A,D   0C 1 NOP 1 /*A=D
+WRITE B,A   01 1 NOP 1 /*B=A
+WRITE B,C   09 1 NOP 1 /*B=C
+WRITE B,D   0D 1 NOP 1 /*B=D
+WRITE C,A   02 1 NOP 1 /*C=A
+WRITE C,B   06 1 NOP 1 /*C=B
+WRITE C,D   0E 1 NOP 1 /*C=D
+WRITE D,A   03 1 NOP 1 /*D=A
+WRITE D,B   07 1 NOP 1 /*D=B
+WRITE D,C   0B 1 NOP 1 /*D=C
+
+CLR   A     20 1 NOP 1 /*clear regist A
+CLR   B     21 1 NOP 1 /*clear regist B
+CLR   C     22 1 NOP 1 /*clear regist C
+CLR   D     23 1 NOP 1 /*clear regist D
+
+INV   A,A   24 1 NOP 1 /*A = not A
+INV   B,A   25 1 NOP 1 /*B = not A
+INV   C,A   26 1 NOP 1 /*C = not A
+INV   D,A   27 1 NOP 1 /*D = not A
+
+OR    A,AB  28 1 NOP 1 /*А = А or B
+OR    B,AB  29 1 NOP 1 /*B = А or B
+OR    C,AB  2A 1 NOP 1 /*C = А or B
+OR    D,AB  2B 1 NOP 1 /*D = А or B
+
+AND   A,AB  2C 1 NOP 1 /*А = А and B
+AND   B,AB  2D 1 NOP 1 /*B = А and B
+AND   C,AB  2E 1 NOP 1 /*C = А and B
+AND   D,AB  2F 1 NOP 1 /*D = А and B
+
+XOR   A,AB  30 1 NOP 1 /*А = А xor B
+XOR   B,AB  31 1 NOP 1 /*B = А xor B
+XOR   C,AB  32 1 NOP 1 /*C = А xor B
+XOR   D,AB  33 1 NOP 1 /*D = А xor B
+
+RL    A,A   34 1 NOP 1 /*A = rlA
+RL    B,A   35 1 NOP 1 /*B = rlA
+RL    C,A   36 1 NOP 1 /*C = rlA
+RL    D,A   37 1 NOP 1 /*D = rlA
+
+RR    A,A   38 1 NOP 1 /*A = rrA
+RR    B,A   39 1 NOP 1 /*B = rrA
+RR    C,A   3A 1 NOP 1 /*C = rrA
+RR    D,A   3B 1 NOP 1 /*D = rrA
+
+SUM   A,AB  3C 1 NOP 1 /*А = А + B
+SUM   B,AB  3D 1 NOP 1 /*B = А + B
+SUM   C,AB  3E 1 NOP 1 /*C = А + B
+SUM   D,AB  3F 1 NOP 1 /*D = А + B
+
+INS   A,#*  40 2 NOP 1 /*insert number from the next byte into registr A
+INS   B,#*  41 2 NOP 1 /*insert number from the next byte into registr B
+INS   C,#*  42 2 NOP 1 /*insert number from the next byte into registr C
+INS   D,#*  43 2 NOP 1 /*insert number from the next byte into registr D
+
+GOTO  *     80 2 JMP 1 /*jump to...
+
+GOZR  *     C0 2 JMP 1 /*jump to... if A=0
+GONZR *     C1 2 JMP 1 /*jump to... if A!=0
+GOB   *     C2 2 JMP 1 /*jump to... if carry bit exists
+GONB  *     C3 2 JMP 1 /*jump to... if no carry bit
