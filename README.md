@@ -1,3 +1,9 @@
+<div style="display: flex;">
+    <img src="https://static8.tgstat.ru/channels/_0/ce/ceecb42fcf878251779474152143188f.jpg" width="40" height="40">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="http://geometry.karazin.ua/themes/frontend/images/univer_logo.jpg" width="40" height="40">
+</div>
+
 # Microprocessors and their applications
 
 Workshop on the course "Microprocessors and their applications" at V. N. Karazin Kharkiv National University, which I took in the 3rd year in 2021 at the Computer Science Department. Lecturer Associate Professor of the Department of Electronics and Control Systems, Doctor of Technical Sciences Reva Serhii Mykolayovych.\
