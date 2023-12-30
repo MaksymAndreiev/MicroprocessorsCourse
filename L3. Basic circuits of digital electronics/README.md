@@ -1,6 +1,6 @@
 # Laboratory work №3 "Basic circuits of digital electronics"
 
-## Tasks
+## Task
 
 Create a table of the DPM8 processor's own mnemonic instruction symbols and test it. Write an assembly program, that
 would compare two numbers x and y, which are in the four most significant and least significant bits when entered from
@@ -64,6 +64,8 @@ the keyboard, and ensure its error-free translation.
 | 52 | 11 0000 01 | Transfers control to a specific address if the contents of the A register are other than 0     |
 | 53 | 11 0000 10 | Transfers control to a specific address if the carry bit is set                                |
 | 54 | 11 0000 11 | Transfers control to a specific address if the carry bit is 0                                  |
+
+![diagram (12)-min](https://github.com/MaksymAndreiev/MicroprocessorsCourse/assets/29687267/745888f5-7f17-4d97-bfea-514784eb90c2)
 
 # Лабораторна робота №3 «Базові схеми цифрової електроніки»
 
@@ -131,3 +133,5 @@ the keyboard, and ensure its error-free translation.
 | 52 | 11 0000 01 | Передає управління на певну адресу, якщо вміст регістра А відмінний від 0     |
 | 53 | 11 0000 10 | Передає управління на певну адресу, якщо встановлено біт переносу             |
 | 54 | 11 0000 11 | Передає управління на певну адресу, якщо біт переносу дорівнює 0              |
+
+![diagram (12)-min](https://github.com/MaksymAndreiev/MicroprocessorsCourse/assets/29687267/745888f5-7f17-4d97-bfea-514784eb90c2)
