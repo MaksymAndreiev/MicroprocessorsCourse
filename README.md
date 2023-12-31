@@ -11,7 +11,7 @@ The course is designed for third-year students of the Faculty of Computer Scienc
 
 The code was assembled using the Telemark Table Assembler (TASM) with a specially created table describing the assembly language of the 8-bit processor. The code was prepared for execution on the DOS (Disk Operating System) platform. To successfully execute this code on modern operating systems that do not support DOS, DOSBox was used.
 
-All laboratory work was performed using the training model of a digital processor named DPM8, implemented on small-scale integration elements at the Department of Electronics and Control Systems of V.N. Karazin Kharkiv National University.
+All laboratory work was performed using the training model of a digital processor named [DPM8](http://www.irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?I21DBN=LINK&P21DBN=UJRN&Z21ID=&S21REF=10&S21CNR=20&S21STN=1&S21FMT=ASP_meta&C21COM=S&2_S21P03=FILA=&2_S21STR=VKhIMAM_2011_987_18_3), implemented on small-scale integration elements at the Department of Electronics and Control Systems of V.N. Karazin Kharkiv National University.
 
 ![image](https://github.com/MaksymAndreiev/MicroprocessorsCourse/assets/29687267/377f356a-8e1f-4c56-81b7-9469b0e0e7d9)
 
@@ -24,7 +24,7 @@ All laboratory work was performed using the training model of a digital processo
 
 Код було зібрано за допомогою асемблера Telemark Table Assembler (TASM) зі спеціально створеною таблицею, що описує мову асемблера 8-розрядного процесора. Код було підготовлено для виконання на платформі DOS (Disk Operating System). Для успішного виконання цього коду на сучасних операційних системах, які не підтримують DOS, використовувався DOSBox.
 
-Всі лабораторні работи роботи виконувались під навчальну модель цифрового процесору під назвою DPM8, реалізована на елементах малого ступеня інтеграції на кафедрі електроніки та управляючих систем Харківського національного університету імені В.Н. Каразіна.
+Всі лабораторні работи роботи виконувались під навчальну модель цифрового процесору під назвою [DPM8](http://www.irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?I21DBN=LINK&P21DBN=UJRN&Z21ID=&S21REF=10&S21CNR=20&S21STN=1&S21FMT=ASP_meta&C21COM=S&2_S21P03=FILA=&2_S21STR=VKhIMAM_2011_987_18_3), реалізована на елементах малого ступеня інтеграції на кафедрі електроніки та управляючих систем Харківського національного університету імені В.Н. Каразіна.
 
 ![image](https://github.com/MaksymAndreiev/MicroprocessorsCourse/assets/29687267/377f356a-8e1f-4c56-81b7-9469b0e0e7d9)
 
